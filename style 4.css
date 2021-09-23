@@ -1,0 +1,150 @@
+.container{
+    background-color: #666666; 
+    max-width: 980px;
+    margin: auto;
+    padding: 10px;
+}
+.container > *{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header .logo{
+    order: 1;
+    background-color: #aaaaaa; 
+    border: 1px solid grey;
+    padding: 10px;
+    height: 75px;
+    width: 120px;
+    color: white;
+    text-align: center;
+}
+.header .phone{
+    order: 2;
+    background-color: #aaaaaa; 
+    border: 1px solid grey;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    text-align: center; 
+    margin-left: auto;
+
+}
+.menu{
+    background-color: #aaaaaa;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px;
+    height: 70px;
+    flex: 2;
+    margin-left: 3px;
+    text-align: center;
+}
+.image-slideshow{
+    background-color: #aaaaaa;
+    color: white;
+    border: 1px solid grey;
+    height: 250px;
+    padding: 40px;
+}
+ .main{
+    display: flex;
+    flex-direction: row;
+    
+ }
+.main .feat-1{
+    order: 1;
+    background-color: #aaaaaa;
+    color: white;
+    width: 326px; 
+    height: 100px;
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.main .feat-2{
+    order: 2;
+    background-color: #aaaaaa;
+    color: white;
+    width: 326px; 
+    height: 100px;
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    margin-left: 3px;
+    text-align: center;
+}
+.main .feat-3{
+    order: 3;
+    background-color: #aaaaaa;
+    color: white;
+    width: 326px; 
+    height: 100px;
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    margin-left: 3px;
+    text-align: center;
+}
+.main .feat-4{
+    order: 4;
+    background-color: #aaaaaa;
+    color: white;
+    width: 326px; 
+    height: 100px;
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    margin-left: 3px;
+    text-align: center;
+}
+ .content{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+ }
+ .content .text-content{
+    order: 1;
+    background-color: #aaaaaa;
+    color: white;
+    height: 350px; 
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 2;
+    text-align: center;
+ }
+ .content .side-bar{
+    order: 2;
+    background-color: #aaaaaa;
+    color: white;
+    height: 350px; 
+    border: 1px solid grey;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    margin-left: 3px;
+ }
+ 
+ footer{
+    background-color: #aaaaaa;
+    color: white;
+    height: 50px;
+    border: 1px solid grey;
+    padding: 40px;
+    margin-bottom: 13px;
+    text-align: center;
+ }
+ @media screen and (min-width: 480px){
+        .container{
+            display: flex;
+            flex-direction:column;
+    }
+}
